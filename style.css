@@ -1,0 +1,89 @@
+html,
+body{
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial,Sans-Serif;
+}
+.hero{
+  border: solid white 1px;
+  margin: 140px 0 140px 0;
+}
+body,section,header,footer{
+  background-color:gray;
+}
+img{
+  width: 50%;
+  height: 50%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+figure{
+  box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+figure img{
+  margin-top: 20px;
+}
+ul .color{
+  background-color: #000000;
+}
+nav{
+  overflow: hidden;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li {
+  float: left;
+}
+#menu{
+  margin-top: 50px;
+  border: double white 2px;
+  border-radius: 20px;
+  background-color: #b5b5b5;
+  color: black;
+}
+figure{
+  border: double black 1px;
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+ul li :hover{
+  background-color:#707070 ;
+}
+footer{
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+div{
+  margin-top: 75px;
+}
+#about{
+  background-color: #999999;
+  margin: 150px 20px 150px 20px;
+  border-radius: 10px;
+}
+aside{
+  margin-bottom: 150px;
+  border: double white 1px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px rgb(0,0,0);
+}
+footer a{
+  color: white;
+}
